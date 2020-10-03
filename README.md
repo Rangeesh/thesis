@@ -30,6 +30,11 @@ Technical Definitions:
 
 String Stability refers to the dampening of errors have we move along in the string. Since We're looking to define a combined controller, we would want string stability in more than one direction
 
+$$
+∥ε_2∥_∞>∥ε_3∥_∞>⋯>∥ε_n∥_∞
+$$
+where $\epsilon_i$ is the error of the i^th^ vehicle and $||\cdot||_\infty$  is the infinity-norm
+
 
 
 ## Description of Strings
@@ -39,13 +44,6 @@ The string is designed in the following manner:
 There is one vehicle initially, that is the leader of the vehicle. It is assumed to be a vehicle who's trajectory the other vehicles are looking to track. 
 
 > If the lead vehicle is an autonomous vehicle, designing a decentralized controller taking path planning into consideration is an interesting problem to look at! What are the merits and demerits of a decentralized controller?
-
-Design Parameters:
-
-- Lane Width -- Needed for defining the lateral bounds of the vehicle
-- Vehicle Dimensions -- For a tighter bound and taking into critical rollover conditions? **Not required**
-
-
 
 
 
