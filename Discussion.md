@@ -32,7 +32,7 @@ String Stability refers to the dampening of errors have we move along in the str
 
 
 
-## Description of String
+## Description of Strings
 
 The string is designed in the following manner:
 
