@@ -2,17 +2,17 @@
 
 Design a path-tracking controller for a platoon of vehicles that is shown to have a guarantee for lateral bounds during lane change maneuvers.
 
-###### Why?
+## Why?
 
 (In brief) Platooning of vehicles has been shown to have [increased fuel efficiency, improved highway efficiency and reduced emissions](https://www.hindawi.com/journals/jat/2020/2604012/). Especially in the application of freight trucks, platooning of vehicles can be greatly used to reduce the costs of transportation. Given the fact that most of the journey of the platooning vehicles would be in a structured environment (highways) with less number of disturbances, the possibility of actual implementations of vehicle platooning is quite and hence it's an exciting field of research to look into
 
-###### Problem Definition
+## Problem Definition
 
 Essentially, we're trying to design a trajectory tracking controller for every vehicle in the platoon. With the possibility of vehicle communications between the vehicles, taking that to our advantage, we're looking to design a controller that would give us a real tight spacing between each vehicle in the platoon while maintaining enough spacing to avoid head-on collisions. Safety is the main aspect we're taking into consideration here, therefore our path tracking controller must be able to give us a safe trajectory to follow at all times.  
 
 *TODO: Add more details here*
 
-###### Safety
+## Safety
 
 Since safety is the main aspect that we are taking into consideration, it is useful to define our safety metrics at this point. What are the metrics of safety?
 
@@ -32,7 +32,7 @@ String Stability refers to the dampening of errors have we move along in the str
 
 
 
-###### Description of String
+## Description of Strings
 
 The string is designed in the following manner:
 
